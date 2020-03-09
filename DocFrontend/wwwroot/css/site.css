@@ -1,0 +1,225 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  background: url(../img/docs-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: transparent;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  background-color: #fff;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/* Classes */
+
+.centerpanel {
+  margin: 0 auto;
+  top: 100px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.navbar>.container, .navbar>.container-fluid {
+  display: table-caption;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.pb-3, .py-3 {
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+}
+
+.login-class {
+  margin: auto;
+}
+
+.login-field {
+  margin: 1px auto;
+}
+
+.grid-class {
+  margin: auto;
+}
+
+/* Override Ext Styles */
+
+.x-body {
+  color: #000;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 300;
+  font-family: helvetica, arial, verdana, sans-serif;
+  background: transparent;
+}
+
+.x-panel-body-default {
+  background: #fff;
+  border-color: #cfcfcf;
+  color: #000;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: helvetica, arial, verdana, sans-serif;
+  border-width: 1px;
+  border-style: none;
+}
+
+.x-form-item {
+  display: table;
+  table-layout: fixed;
+  border-spacing: 1px;
+  border-collapse: separate;
+}
+
+.x-title-text {
+  display: table-cell;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.x-docked-top {
+  border-bottom-width: 1px !important;
+}
+
+/* Icons */
+
+.app-users {
+  background-image: url(../img/icons/users.png);
+  width: 300px;
+  height: 64px;
+	background-repeat: no-repeat;
+}
+
+.app-customers {
+  background-image: url(../img/icons/customers.png);
+  width: 300px;
+  height: 64px;
+	background-repeat: no-repeat;
+}
+
+.app-exit {
+  background-image: url(../img/icons/exit.png);
+  width: 300px;
+  height: 64px;
+	background-repeat: no-repeat;
+}
+
+.icon-like {
+  background-image: url(../img/icons/like-bigger.png);
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+}
+
+.icon-dislike {
+  background-image: url(../img/icons/dislike-bigger.png);
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+}
+
+.icon-notification {
+  background-image: url(../img/icons/notification.png);
+  width: 64px;
+  height: 32px;
+	background-repeat: no-repeat;
+}
+
+.btn-notifies {
+  border-style: none;
+  background-color: transparent;
+}
+
+.icon-add {
+  background-image: url(../img/icons/add.png);
+  background-size: 16px 16px;
+	background-repeat: no-repeat;
+}
+
+.icon-edit {
+  background-image: url(../img/icons/edit.png);
+  background-size: 16px 16px;
+	background-repeat: no-repeat;
+}
+
+.icon-delete {
+  background-image: url(../img/icons/clear.png);
+  background-size: 16px 16px;
+	background-repeat: no-repeat;
+}
+
+.icon-approval {
+  background-image: url(../img/icons/like.png);
+  background-size: 16px 16px;
+	background-repeat: no-repeat;
+}

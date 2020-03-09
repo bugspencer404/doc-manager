@@ -1,0 +1,13 @@
+﻿@page
+@model UserModel
+@{
+    ViewData["Title"] = "Utenti";
+    ViewData["userid"] = @Model.userid;
+    ViewData["username"] = @Model.username;
+    ViewData["userrole"] = @Model.userrole;
+}
+
+<div id="ext-panel" class="text-center"></div>
+<script src="~/js/forms.js" asp-append-version="true"></script>
+<script src="~/js/grid.js" asp-append-version="true"></script>
+<script src="~/js/users.js" asp-append-version="true"></script>

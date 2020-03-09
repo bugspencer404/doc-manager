@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    ViewData["userid"] = @Model.userid;
+    ViewData["username"] = @Model.username;
+    ViewData["userrole"] = @Model.userrole;
+}
+
+@if (Model.userid == null) {
+    <div id="ext-panel" style="display:none;" class="text-center"></div>
+    <div id="ext-login" class="text-center"></div>
+}
+else {
+    <div id="ext-panel" class="text-center"></div>
+    <div id="ext-login" style="display:none;" class="text-center"></div>
+}
+
+<script src="~/js/login.js" asp-append-version="true"></script>
+<script src="~/js/startmenu.js" asp-append-version="true"></script>
+<script src="~/js/index.js" asp-append-version="true"></script>
